@@ -16,6 +16,8 @@
         <property name="hibernate.show_sql">true</property>
 
         <mapping class="org.example.modules.auth.user.entity.User"/>
+        <mapping class="org.example.modules.auth.user.entity.Profile"/>
 
     </session-factory>
 </hibernate-configuration>
+
